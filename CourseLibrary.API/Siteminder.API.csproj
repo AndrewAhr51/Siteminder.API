@@ -1,0 +1,139 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20191206170312_InitSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191206170312_InitSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191206170543_InitSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191206170543_InitSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191206170721_InitSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191206170721_InitSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191206170909_InitSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191206170909_InitSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191206171031_InitSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191206171031_InitSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191209173523_add-siteinfo-contact-info-tables.cs" />
+    <Compile Remove="Migrations\20191209173523_add-siteinfo-contact-info-tables.Designer.cs" />
+    <Compile Remove="Migrations\20191209173926_add-siteinfo-contact-info-tables.cs" />
+    <Compile Remove="Migrations\20191209173926_add-siteinfo-contact-info-tables.Designer.cs" />
+    <Compile Remove="Migrations\20191209174715_add-siteinfo-contact-info-tables.cs" />
+    <Compile Remove="Migrations\20191209174715_add-siteinfo-contact-info-tables.Designer.cs" />
+    <Compile Remove="Migrations\20191209215400_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191209215400_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191209215840_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191209215840_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191209221110_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191209221110_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191209221210_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191209221210_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191209222221_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191209222221_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191209222402_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191209222402_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191209222559_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191209222559_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191209222755_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191209222755_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191209223338_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191209223338_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191214034223_TerminalMigration.cs" />
+    <Compile Remove="Migrations\20191214034223_TerminalMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191216193258_remove-fields-from-site.cs" />
+    <Compile Remove="Migrations\20191216193258_remove-fields-from-site.Designer.cs" />
+    <Compile Remove="Migrations\20191218162325_createCompanySiteTypeAssignment.cs" />
+    <Compile Remove="Migrations\20191218162325_createCompanySiteTypeAssignment.Designer.cs" />
+    <Compile Remove="Migrations\20191218175611_createCompanySiteTypeAssignment.cs" />
+    <Compile Remove="Migrations\20191218175611_createCompanySiteTypeAssignment.Designer.cs" />
+    <Compile Remove="Migrations\20191219170624_addTerminalSettings.cs" />
+    <Compile Remove="Migrations\20191219170624_addTerminalSettings.Designer.cs" />
+    <Compile Remove="Migrations\20191219205900_FixTerminalSettings.cs" />
+    <Compile Remove="Migrations\20191219205900_FixTerminalSettings.Designer.cs" />
+    <Compile Remove="Migrations\20191219210547_InitialSiteMinderDb.cs" />
+    <Compile Remove="Migrations\20191219210547_InitialSiteMinderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191219210939_InitialSiteMinderDb.cs" />
+    <Compile Remove="Migrations\20191219210939_InitialSiteMinderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191223224124_InitialSitminderDB.cs" />
+    <Compile Remove="Migrations\20191223224124_InitialSitminderDB.Designer.cs" />
+    <Compile Remove="Migrations\20191223225433_InitialSitminderDB1.cs" />
+    <Compile Remove="Migrations\20191223225433_InitialSitminderDB1.Designer.cs" />
+    <Compile Remove="Migrations\20191223225633_InitialSitminderDB.cs" />
+    <Compile Remove="Migrations\20191223225633_InitialSitminderDB.Designer.cs" />
+    <Compile Remove="Migrations\20191225083803_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191225083803_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191225084530_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191225084530_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191225232420_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191225232420_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191226002300_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191226002300_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191226143804_InitialSiteminderDB.cs" />
+    <Compile Remove="Migrations\20191226143804_InitialSiteminderDB.Designer.cs" />
+    <Compile Remove="Migrations\20191226154059_InitialSiteminderDB.cs" />
+    <Compile Remove="Migrations\20191226154059_InitialSiteminderDB.Designer.cs" />
+    <Compile Remove="Migrations\20191226170717_InitialSiteminderDB.cs" />
+    <Compile Remove="Migrations\20191226170717_InitialSiteminderDB.Designer.cs" />
+    <Compile Remove="Migrations\20191227200209_InitialSiteMinderDb.cs" />
+    <Compile Remove="Migrations\20191227200209_InitialSiteMinderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191227204004_InitialSiteMinderDb.cs" />
+    <Compile Remove="Migrations\20191227204004_InitialSiteMinderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191227204335_InitialSiteMinderDb.cs" />
+    <Compile Remove="Migrations\20191227204335_InitialSiteMinderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191227204748_InitialSiteMinderDb.cs" />
+    <Compile Remove="Migrations\20191227204748_InitialSiteMinderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191230163644_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191230163644_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191230175155_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191230175155_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191230175856_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191230175856_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191230192835_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191230192835_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191230224607_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191230224607_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191231154455_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191231154455_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191231171042_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191231171042_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20191231182558_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20191231182558_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20200102162307_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20200102162307_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20200102175250_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20200102175250_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20200102215030_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20200102215030_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20200103194440_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20200103194440_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20200103201611_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20200103201611_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20200103213649_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20200103213649_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20200109212118_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20200109212118_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20200109213815_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20200109213815_InitialSiteminderDb.Designer.cs" />
+    <Compile Remove="Migrations\20200110131744_InitialSiteminderDb.cs" />
+    <Compile Remove="Migrations\20200110131744_InitialSiteminderDb.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Marvin.Cache.Headers" Version="4.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.0.19" />
+  </ItemGroup>
+
+</Project>

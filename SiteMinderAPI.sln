@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Siteminder.API", "CourseLibrary.API\Siteminder.API.csproj", "{2B703588-499D-4F39-8A29-002115F03C24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B703588-499D-4F39-8A29-002115F03C24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B703588-499D-4F39-8A29-002115F03C24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B703588-499D-4F39-8A29-002115F03C24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B703588-499D-4F39-8A29-002115F03C24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92142BF5-0A98-4981-982B-7AB26166E482}
+	EndGlobalSection
+EndGlobal
